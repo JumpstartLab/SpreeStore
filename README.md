@@ -6,7 +6,9 @@ started tutorial](http://guides.spreecommerce.com/developer/getting_started_tuto
 ```
 $ bundle install
 $ rake db:migrate
-$ rails s
+$ rake db:seed
+$ rake spree_sample:load
+$ rails server
 ```
 
 ## User Accounts
