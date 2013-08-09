@@ -15,3 +15,9 @@ gem 'jquery-rails', "~> 2.2.1"
 gem 'spree', '2.0.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
+
+group :development do
+  gem 'debugger'
+  gem 'quiet_assets'
+  gem 'thin'
+end
