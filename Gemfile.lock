@@ -20,6 +20,12 @@ GIT
       savon (~> 1.2)
       spree_core (~> 2.0.0)
 
+PATH
+  remote: ../spree_admin_panel
+  specs:
+    spree_admin_panel (2.0.3)
+      spree_core (~> 2.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -291,6 +297,7 @@ DEPENDENCIES
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)
   spree (= 2.0.3)
+  spree_admin_panel!
   spree_auth_devise!
   spree_gateway!
   sqlite3
