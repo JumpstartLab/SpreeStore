@@ -5,6 +5,8 @@
 #
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
+Spree::AppConfiguration.preference :theme_background_color, :string, default: "#FFFFFF"
+
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
