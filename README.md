@@ -6,7 +6,9 @@ started tutorial](http://guides.spreecommerce.com/developer/getting_started_tuto
 ```
 $ bundle install
 $ rake db:migrate
-$ rails s
+$ rake db:seed
+$ rake spree_sample:load
+$ rails server
 ```
 
 ## User Accounts
@@ -17,3 +19,9 @@ Password: spree123
 ## Admin Section
 
 Visit [http://localhost:3000/admin](http://localhost:3000/admin).
+
+## Problems
+
+Currently with JRuby with the Deface gem does not work correctly. The templates
+defined in partials are rendered as text and not as html.
+
