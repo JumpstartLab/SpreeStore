@@ -11,6 +11,7 @@ group :assets do
 end
 
 gem 'jquery-rails', "~> 2.2.1"
+gem "quiet_assets", "~> 1.0.2"
 
 gem 'spree', '2.0.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
